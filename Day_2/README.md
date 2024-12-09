@@ -76,7 +76,12 @@ $$x_{ij} \in \{0, 1\}, \quad \forall (i, j) \in E$$
 
 
 ---
-Data[instance.txt]
-Model[main.py]
-Sensitivity Analysis[sensitivity_analysis.py]
-Solution[solution.txt]
+# Day 2 Files
+
+Here are the files for Day 2:
+
+- [Data: instance.txt](Day_2/instance.txt)
+- [Model: main.py](Day_2/main.py)
+- [Sensitivity Analysis: sensitivity_analysis.py](Day_2/sensitivity_analysis.py)
+- [Solution: solution.txt](Day_2/solution.txt)
+
