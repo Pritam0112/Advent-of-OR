@@ -12,6 +12,7 @@ Optimal Solution (No Restrictions on Prohibited Cities):
 Case 1. In the initial case, where no cities are restricted
     optimal route: 1 -> 37 -> 41 -> 2 -> 100
     Total distance: 131.0
+    Total fuel cost: 44 euros
 
 Sensitivity Analysis (Exploring the Effect of Prohibiting Specific Cities):
 
@@ -19,13 +20,16 @@ case 2.
     Prohibited city : 2
     The optimal Route: 1 -> 72 -> 53 -> 100
     Total distance: 142.0
+    Total fuel cost: 26 euros
 
 case 3.
     Prohibited city : 37
     The optimal Route: 1 -> 72 -> 53 -> 100
     Total distance: 142.0
+    Total fuel cost: 26 euros
 
 case 4.
     Prohibited city : 41
     The optimal Route: 1 -> 72 -> 53 -> 100
     Total distance: 142.0
+    Total fuel cost: 26 euros

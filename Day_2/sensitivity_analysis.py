@@ -22,7 +22,7 @@ def perform_sensitivity_analysis():
         model, edges, x = build_model(start_city, end_city, prohibited_city, max_budget, connections_df)
 
         # Solve the model
-        solve_model(model, edges, x)
+        solve_model(model, edges, x, connections_df)
         print('*'*100)
 
 if __name__ == "__main__":

@@ -114,14 +114,15 @@ def build_model(start_city, end_city, prohibited_city, fuel_budget, connections_
     return model, edges, x
 
 
-def solve_model(model, edges, x):
+def solve_model(model, edges, x, connections_df):
     """
-    Solves the model and prints the optimal route and its total distance.
+    Solves the model and prints the optimal route, its total distance, and fuel costs.
 
     Args:
         model (Model): The Gurobi model.
         edges (list): List of edges.
         x (dict): Gurobi decision variables.
+        connections_df: Dataframe
     """
     # Optimize the model
     model.optimize()
@@ -131,22 +132,37 @@ def solve_model(model, edges, x):
     if model.status == GRB.OPTIMAL:
         route = [1]  # Start from the starting city (Madrid)
         current_city = 1
+        total_distance = 0
+        total_cost = 0
 
         # Trace the route by following the decision variables
         while True:
             next_city = next((j for i, j in edges if i == current_city and x[i, j].x > 0.5), None)
             if not next_city: break
             route.append(next_city)
+
+            # Get the distance and fuel cost directly from the DataFrame
+            leg_info = connections_df[(connections_df["First City"] == current_city) &
+                                      (connections_df["Second City"] == next_city)]
+            if leg_info.empty:
+                leg_info = connections_df[(connections_df["First City"] == next_city) &
+                                          (connections_df["Second City"] == current_city)]
+
+            # Assuming leg_info has only one row
+            distance = leg_info["Distance"].values[0]
+            cost = leg_info["Fuel Cost"].values[0]
+
+            total_distance += distance  # Add distance of this leg
+            total_cost += cost  # Add fuel cost of this leg
             current_city = next_city
 
         # Print the route in the format 1 -> 72 -> 53 -> 100
         print('The optimal Route: ')
         print(" -> ".join(map(str, route)))
-        print(f"Total distance: {model.objVal}")
+        print(f"Total distance: {total_distance} km")
+        print(f"Total fuel cost: {total_cost} euros")
     else:
         print("No feasible solution found.")
-
-
 
 def __main__():
 
@@ -160,7 +176,7 @@ def __main__():
     fuel_budget = max_budget
 
     model, edges, x = build_model(start_city, end_city, prohibited_city, fuel_budget, connections_df)
-    solve_model(model, edges, x)
+    solve_model(model, edges, x, connections_df)
 
 if __name__ == "__main__":
     __main__()
