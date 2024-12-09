@@ -78,7 +78,7 @@ $$x_{ij} \in \{0, 1\}, \quad \forall (i, j) \in E$$
 ---
 # Day 2 Files
 
-Here are the files for Day 2:
+Here are the files for the problem:
 
 - [Data: instance.txt](Day_2/instance.txt)
 - [Model: main.py](Day_2/main.py)
