@@ -80,8 +80,8 @@ $$x_{ij} \in \{0, 1\}, \quad \forall (i, j) \in E$$
 
 Here are the files for the problem:
 
-- [Data: instance.txt](Day_2/instance.txt)
-- [Model: main.py](Day_2/main.py)
-- [Sensitivity Analysis: sensitivity_analysis.py](Day_2/sensitivity_analysis.py)
-- [Solution: solution.txt](Day_2/solution.txt)
+- [Data: instance.txt](Day_2/)
+- [Model: main.py](Day_2/)
+- [Sensitivity Analysis: sensitivity_analysis.py](Day_2/)
+- [Solution: solution.txt](Day_2/)
 
