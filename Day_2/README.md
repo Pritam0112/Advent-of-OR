@@ -1,23 +1,24 @@
 # **Day 2**
 
-### **Problem Description**
+### **🌍 Problem Description**
 
-My friend VictORia and I are planning a road trip.
-We want to drive from Madrid to Copenhagen and we've seen there are a lot of ways to do it.
-Most probably, even if we wanted to go through Budapest, we cannot go that path. We have a limited budget for fuel of 73€, and we want to get the shortest possible way.
+My friend VictORia and I are planning a road trip. 🚗🗽
+We want to drive from Madrid to Copenhagen, and we've seen there are a lot of ways to do it.
+Most probably, even if we wanted to go through Budapest, we cannot go that path. 🏦
+We have a limited budget for fuel of 73€ 💶, and we want to get the shortest possible way. 📍
 
-Can you help me solve this problem?
+Can you help me solve this problem? ✨
 
 -------------------------------------
 
-### **Objectives**
+### **🔖 Objectives**
 
-The goal of this problem is to determine the shortest possible route for a road trip from Madrid (city index 1) to Copenhagen (city index 100) while adhering to the following constraints:
+The goal of this problem is to determine the shortest possible route 🔎 for a road trip from Madrid (city index 1) to Copenhagen (city index 100) while adhering to the following constraints:
 
-- Fuel Budget Constraint: The total fuel cost of the chosen route must not exceed 73 euros.
-- Avoiding Prohibited City: The route must not pass through Budapest.
-- Path Feasibility: The route must start at Madrid, end at Copenhagen, and ensure a continuous path.
-----
+- **⛽ Fuel Budget Constraint:** The total fuel cost of the chosen route must not exceed 73 euros.
+- **❌ Avoiding Prohibited City:** The route must not pass through Budapest.
+- **🛣️ Path Feasibility:** The route must start at Madrid, end at Copenhagen, and ensure a continuous path.
+
 ### **Sets and Indices**
 - $C$ : Set of cities (nodes in the graph).
 - $E$: Set of connections (edges in the graph) between cities $(i, j)$.
