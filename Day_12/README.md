@@ -13,8 +13,6 @@ So we need to figure out the best possible path to minimize ⏱️ delivery time
 
 Can you help me solve this problem? 🧩
 
-Here you can find an instance of this problem.
-
 
 ## **Traveling Salesman Problem**
 
