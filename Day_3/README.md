@@ -4,7 +4,7 @@
 
 Hey, ORville here 👋
 
-I'm a logistics manager overseeing the allocation of tasks to employees in our company, **FurnitORe**. We have 100 tasks and 100 employees. However, the cost of assigning each task to an employee varies, and we need to minimize the total cost 💸.
+I'm a logistics manager overseeing the allocation of tasks to employees in our company, **FurnitORe**. We have 100 tasks and 100 employees. However, the cost of assigning each task to an employee varies, and we need to minimize the total cost 💸.[post](https://www.linkedin.com/posts/borjamenendezmoreno_operationsresearch-activity-7269618917482909696-qJ_2?utm_source=share&utm_medium=member_desktop)
 
 ## Problem Description 🧑‍💼
 In this problem, we aim to assign **n tasks** to **n employees** such that:
