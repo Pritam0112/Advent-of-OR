@@ -1,15 +1,50 @@
+# **DAy 3**
+
+## **Task Assignment Problem** 📋💼
+
 Hey, ORville here 👋
 
-I'm a logistics manager overseeing the allocation of tasks to employees in our company, FurnitORe.
+I'm a logistics manager overseeing the allocation of tasks to employees in our company, **FurnitORe**. We have 100 tasks and 100 employees. However, the cost of assigning each task to an employee varies, and we need to minimize the total cost 💸.
 
-Right now we have 100 tasks that need to be completed, and we also have 100 employees available to handle them.
+## Problem Description 🧑‍💼
+In this problem, we aim to assign **n tasks** to **n employees** such that:
+1. Each task is assigned to exactly one employee. 🎯
+2. Each employee is assigned to exactly one task. 👥
+3. The total cost of the assignment is minimized. 💰
 
-The catch is that assigning a task to an employee has a cost 💸.
+### Mathematical Formulation 📊
 
-These costs vary depending on the difficulty of the task, the expertise of the employee, and other factors.
+#### Sets and Parameters 📝
+1. **Sets:**
+   - $T$: Set of tasks, $T = \{1, 2, \dots, n\}$.
+   - $E$: Set of employees, $E = \{1, 2, \dots, n\}$.
 
-I need your help to figure out the most cost-effective way to assign these tasks to employees.
+2. **Parameters:**
+   - $c_{ij}$: The cost of assigning task $i$ to employee $j$, where $i \in T$, $j \in E$.
 
-You can assume that each task is done by just one employee, and one employee is assigned to just one task.
+#### Decision Variables ⚙️
+- $x_{ij}$: A binary decision variable, where 1, if task $i$ is assigned to employee $j$. 0, otherwise.
 
-Can you help me solve this problem?
+#### Objective Function 🎯
+The goal is to minimize the total cost of assignment:
+
+$$\text{Minimize } Z = \sum_{i \in T} \sum_{j \in E} c_{ij} \cdot x_{ij}.$$
+
+#### Constraints 📏
+1. **Each task must be assigned to exactly one employee:**
+   
+$$\sum_{j \in E} x_{ij} = 1, \quad \forall i \in T.$$
+
+2. **Each employee must be assigned to exactly one task:**
+   
+$$\sum_{i \in T} x_{ij} = 1, \quad \forall j \in E.$$
+
+3. **Binary nature of decision variables:**
+   
+$$x_{ij} \in \{0, 1\}, \quad \forall i \in T, \forall j \in E.$$
+
+## Solution 💻
+
+[Solution: Solution.txt](Solution.txt)
+
+
