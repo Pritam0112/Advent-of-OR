@@ -1,0 +1,74 @@
+Optimal total cost:  1040444.375
+-----------------------------------------------
+Warehouse 1 is open
+  Client 3 -> Warehouse 1:  demand: 672.0
+  Client 4 -> Warehouse 1:  demand: 1337.0
+  Client 6 -> Warehouse 1:  demand: 559.0
+  Client 14 -> Warehouse 1:  demand: 143.0
+  Client 24 -> Warehouse 1:  demand: 304.0
+  Client 26 -> Warehouse 1:  demand: 337.0
+  Client 30 -> Warehouse 1:  demand: 495.0
+  Client 40 -> Warehouse 1:  demand: 328.0
+  Client 49 -> Warehouse 1:  demand: 728.0
+Warehouse 2 is open
+  Client 7 -> Warehouse 2:  demand: 2370.0
+  Client 34 -> Warehouse 2:  demand: 2630.0
+Warehouse 3 is open
+  Client 34 -> Warehouse 3:  demand: 5000.0
+Warehouse 4 is open
+  Client 11 -> Warehouse 4:  demand: 5000.0
+Warehouse 5 is open
+  Client 12 -> Warehouse 5:  demand: 904.0
+  Client 34 -> Warehouse 5:  demand: 3360.0
+  Client 49 -> Warehouse 5:  demand: 736.0
+Warehouse 6 is open
+  Client 13 -> Warehouse 6:  demand: 1466.0
+  Client 37 -> Warehouse 6:  demand: 3534.0
+Warehouse 7 is open
+  Client 15 -> Warehouse 7:  demand: 615.0
+  Client 20 -> Warehouse 7:  demand: 195.0
+  Client 22 -> Warehouse 7:  demand: 807.0
+  Client 44 -> Warehouse 7:  demand: 500.0
+  Client 48 -> Warehouse 7:  demand: 49.0
+Warehouse 8 is open
+  Client 1 -> Warehouse 8:  demand: 146.0
+  Client 5 -> Warehouse 8:  demand: 31.0
+  Client 9 -> Warehouse 8:  demand: 33.0
+  Client 10 -> Warehouse 8:  demand: 32.0
+  Client 16 -> Warehouse 8:  demand: 564.0
+  Client 39 -> Warehouse 8:  demand: 705.0
+  Client 43 -> Warehouse 8:  demand: 275.0
+  Client 45 -> Warehouse 8:  demand: 1609.0
+  Client 46 -> Warehouse 8:  demand: 733.0
+  Client 47 -> Warehouse 8:  demand: 222.0
+Warehouse 9 is open
+  Client 8 -> Warehouse 9:  demand: 1089.0
+  Client 18 -> Warehouse 9:  demand: 3016.0
+  Client 34 -> Warehouse 9:  demand: 895.0
+Warehouse 11 is open
+  Client 11 -> Warehouse 11:  demand: 495.0
+  Client 23 -> Warehouse 11:  demand: 551.0
+  Client 28 -> Warehouse 11:  demand: 577.0
+  Client 34 -> Warehouse 11:  demand: 1027.0
+  Client 37 -> Warehouse 11:  demand: 137.0
+  Client 38 -> Warehouse 11:  demand: 2213.0
+Warehouse 12 is open
+  Client 2 -> Warehouse 12:  demand: 87.0
+  Client 17 -> Warehouse 12:  demand: 226.0
+  Client 19 -> Warehouse 12:  demand: 253.0
+  Client 21 -> Warehouse 12:  demand: 38.0
+  Client 25 -> Warehouse 12:  demand: 814.0
+  Client 35 -> Warehouse 12:  demand: 325.0
+  Client 36 -> Warehouse 12:  demand: 366.0
+  Client 41 -> Warehouse 12:  demand: 1552.0
+  Client 42 -> Warehouse 12:  demand: 1117.0
+  Client 50 -> Warehouse 12:  demand: 222.0
+Warehouse 13 is open
+  Client 27 -> Warehouse 13:  demand: 4368.0
+  Client 45 -> Warehouse 13:  demand: 632.0
+Warehouse 14 is open
+  Client 29 -> Warehouse 14:  demand: 482.0
+  Client 31 -> Warehouse 14:  demand: 231.0
+  Client 32 -> Warehouse 14:  demand: 322.0
+  Client 33 -> Warehouse 14:  demand: 685.0
+  Client 41 -> Warehouse 14:  demand: 129.0
